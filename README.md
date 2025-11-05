@@ -68,7 +68,13 @@ This project lets a **NodeMCU (ESP8266)** trigger the **intercom door-unlock** b
 
 * Because many Turkish ISPs lock down router configurations, this system communicates over local LAN broadcast rather than direct port forwarding or cloud services.
 
-* You can adapt the firmware to your own network environment — for example, MQTT, HTTP requests, or WebSockets — depending on your setup and access to your network router.
+* You can adapt the firmware to your own network environment depending on your setup and access to your network router.
+
+### My Setup
+
+* Raspberry Pi5 as the main system. Always on and connected to the internet. (Pi controls other devices in the network as well)
+* [TailScale](https://tailscale.com/) VPN connection between Pi5 and Phone.
+* SSH connection via [Termux](https://github.com/termux/termux-app).
 
 ---
 
