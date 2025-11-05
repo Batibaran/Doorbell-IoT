@@ -62,6 +62,16 @@ This project lets a **NodeMCU (ESP8266)** trigger the **intercom door-unlock** b
 
 ---
 
+## Network Notes
+
+* This project focuses primarily on hardware and embedded control, not on full internet connectivity.
+
+* Because many Turkish ISPs lock down router configurations, this system communicates over local LAN broadcast rather than direct port forwarding or cloud services.
+
+* You can adapt the firmware to your own network environment — for example, MQTT, HTTP requests, or WebSockets — depending on your setup and access to your network router.
+
+---
+
 ## Troubleshooting
 
 | Symptom                  | Cause                                  | Fix                                                                       |
